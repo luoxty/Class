@@ -1,0 +1,18 @@
+from selenium import webdriver
+from time import sleep
+driver=webdriver.Chrome()
+driver.maximize_window()
+sleep(3)
+driver.get("https://www.baidu.com/")
+print(driver.title)
+sleep(3)
+driver.get("https://tieba.baidu.com/index.html")
+print(driver.title)
+sleep(3)
+driver.back()
+sleep(3)
+driver.forward()
+sleep(3)
+driver.refresh()
+sleep(3)
+driver.quit()

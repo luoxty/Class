@@ -1,0 +1,5 @@
+s=str(input())
+list= s.split(',',6)
+print(list)
+tuple(list)
+print(tuple(list))
